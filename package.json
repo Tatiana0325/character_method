@@ -1,0 +1,38 @@
+{
+  "name": "character_method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "preshow:dist": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatiana0325/character_method.git"
+  },
+  "author": "Tatiana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatiana0325/character_method/issues"
+  },
+  "homepage": "https://github.com/Tatiana0325/character_method#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.2.0",
+    "jest": "^26.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
